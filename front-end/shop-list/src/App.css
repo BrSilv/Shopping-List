@@ -1,0 +1,41 @@
+@import '~antd/dist/antd.css';
+
+.main{
+  height: 100vh;
+}
+
+.main__content{
+  height: inherit;
+}
+
+.header{
+  background-color: rgb(9, 74, 102);
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+}
+
+.menu{
+  background-color: rgb(9, 74, 102);
+  padding: 16px;
+  color: white;
+}
+
+.footer{
+  background-color: rgb(9, 74, 102);
+  text-align: center;
+  font-weight: 600;
+  color: white;
+}
+
+.menu__section{
+  background-color: rgb(9, 74, 102);
+  color: white;
+  border: none;
+}
+
+.content{
+  overflow: auto;
+  background-color: rgba(107, 107, 231, 0.13);
+}
